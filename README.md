@@ -8,7 +8,7 @@ https://www.youtube.com/watch?v=yDRsbt714WA
 
 Contudo, achei muito pouco e simples e por conta propria resolvi apliar o desafio pra mim e fazer duas telas, sem saber absolutamente nada.
 
-Confesso que fiquei com um bug durante do dias, pois na parte:
+Confesso que fiquei com um bug durante dias, pois na parte:
 
             if nome == Nome_certo and Usuario == Usuario_certo and turno == Turno_certo and Senha == Senha_certa:
                 window2['aviso'].update('Conta criada com sucesso!')
@@ -22,3 +22,26 @@ Tinha esquecido de colocar o 2 no window.
 Podem me julgar, eu deixo!!
 
 Mas é errando que vai aprendendo.
+
+# Como rodar
+
+1. Faça o clone do repositorio
+
+2. Navegue até a pasta do projeto
+
+3. Verifique ou baixe as bibliotecas
+  - PySimpleGUI
+
+4. Rode o comando
+
+```
+python3 app.py
+```
+
+ou 
+
+```
+python app.py
+```
+
+5. Teste com os campos que contem no código
